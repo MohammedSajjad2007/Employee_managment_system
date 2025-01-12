@@ -1,0 +1,40 @@
+
+
+
+CREATE DATABASE employee_managment;
+USE employee_management;
+
+CREATE TABLE department(
+deptid varchar(255) PRIMARY KEY,
+dept_name varchar(255) ,
+no_of_employees int    
+);
+
+
+CREATE TABLE employee(
+empid varchar(255) PRIMARY KEY,
+
+nic varchar(255),
+name varchar(255),
+designation varchar(255),
+deptid varchar(255),
+DOB varchar(255),
+email varchar(255),
+phone INT,
+salary varchar(255)
+
+                         
+);
+
+
+
+CREATE TABLE users(
+admin varchar(255),
+1234 varchar(255)
+
+
+);
+
+
+INSERT INTO USERS
+VALUES(username,password);
